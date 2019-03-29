@@ -15,3 +15,9 @@ public class TestController {
 
 `@Controller` 只是定义了一个控制器类，而使用 `@RequestMapping` 注解的方法才是真正处理请求的处理器。
 
+
+
+`@RequestMapping` 标记的处理器方法
+
+
+
