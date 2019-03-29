@@ -2,6 +2,10 @@
 
 * [First Chapter](chapter1.md)
 
+## Core
+
+* [Controller](core/Controller.md)
+
 ## Log
 
 * [Commons Logging]()
