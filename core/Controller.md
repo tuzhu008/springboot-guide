@@ -59,7 +59,7 @@ public class TestController {
 
 * 一个模型对象
 
-  这主要包括 Spring 封装好的 `Model` 和 `ModelMap` ，以及 java.util.Map ，当没有视图返回的时候视图名称将由RequestToViewNameTranslator 来决定。
+  这主要包括 Spring 封装好的 `Model` 和 `ModelMap` ，以及 `java.util.Map` ，当没有视图返回的时候视图名称将由RequestToViewNameTranslator 来决定。
 
 * 一个View 对象
 
