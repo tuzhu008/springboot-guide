@@ -31,7 +31,7 @@ public class TestController {
 
 * **InputStream、OutputStream、Reader 和 Writer 。**
 
-  InputStream 和Reader 是针对HttpServletRequest 而言的，可以从里面取数据；OutputStream 和Writer 是针对HttpServletResponse 而言的，可以往里面写数据。
+  **`InputStream`** 和 `Reader` 是针对 `HttpServletRequest` 而言的，可以从里面取数据；`OutputStream` 和 `Writer` 是针对HttpServletResponse 而言的，可以往里面写数据。
 
 * **使用 @PathVariable、@RequestParam、@CookieValue 和 @RequestHeader 标记的参数。**
 
