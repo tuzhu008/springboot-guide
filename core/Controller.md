@@ -61,7 +61,7 @@ public class TestController {
 
   这主要包括 Spring 封装好的 `Model` 和 `ModelMap` ，以及 `java.util.Map` ，当没有视图返回的时候视图名称将由`RequestToViewNameTranslator` 来决定。
 
-* 一个View 对象
+* 一个 View 对象
 
   这个时候如果在渲染视图的过程中模型的话就可以给处理器方法定义一个模型参数，然后在方法体里面往模型中添加值。
 
