@@ -23,11 +23,11 @@ public class TestController {
 
   主要包括 `HttpServletRequest`、`HttpServletResponse` 和 `HttpSession` 对象。
 
-  这些参数 Spring 在调用处理器方法的时候会自动给它们赋值，所以当在处理器方法中需要使用到这些对象的时候，可以直接在方法上给定一个方法参数的申明，然后在方法体里面直接用就可以了。但是有一点需要注意的是在使用HttpSession 对象的时候，如果此时HttpSession 对象还没有建立起来的话就会有问题。
+  这些参数 Spring 在调用处理器方法的时候会自动给它们赋值，所以当在处理器方法中需要使用到这些对象的时候，可以直接在方法上给定一个方法参数的申明，然后在方法体里面直接用就可以了。但是有一点需要注意的是在使用 HttpSession 对象的时候，如果此时 HttpSession 对象还没有建立起来的话就会有问题。
 
 * **Spring 自己的 WebRequest 对象。**
 
-  使用该对象可以访问到存放在 HttpServletRequest 和 HttpSession 中的属性值。
+  使用该对象可以访问到存放在 `HttpServletRequest` 和 `HttpSession` 中的属性值。
 
 * **InputStream、OutputStream、Reader 和 Writer 。**
 
