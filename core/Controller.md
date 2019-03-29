@@ -13,5 +13,5 @@ public class TestController {
 }
 ```
 
-`@Controller` 只是定义了一个控制器类，而使用 `@RequestMapping` 注解的方法才是真正处理请求的处理器，这个接下来就会讲到。
+`@Controller` 只是定义了一个控制器类，而使用 `@RequestMapping` 注解的方法才是真正处理请求的处理器。
 
