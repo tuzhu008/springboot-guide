@@ -27,7 +27,7 @@ public class TestController {
 
 * **Spring 自己的 WebRequest 对象。**
 
-  使用该对象可以访问到存放在HttpServletRequest 和HttpSession 中的属性值。
+  使用该对象可以访问到存放在 HttpServletRequest 和 HttpSession 中的属性值。
 
 * **InputStream、OutputStream、Reader 和 Writer 。**
 
