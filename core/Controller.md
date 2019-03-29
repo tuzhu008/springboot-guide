@@ -45,7 +45,7 @@ public class TestController {
 
   可以用来接收上传的参数。
 
-* **Spring 封装的MultipartFile 。**
+* **Spring 封装的 MultipartFile 。**
 
   用来接收上传文件的。
 
@@ -55,11 +55,11 @@ public class TestController {
 
 ### 返回类型
 
-* 一个包含模型和视图的 ModelAndView 对象。
+* 一个包含模型和视图的 `ModelAndView` 对象。
 
 * 一个模型对象
 
-  这主要包括 Spring 封装好的Model 和ModelMap ，以及java.util.Map ，当没有视图返回的时候视图名称将由RequestToViewNameTranslator 来决定。
+  这主要包括 Spring 封装好的 `Model` 和 `ModelMap` ，以及 java.util.Map ，当没有视图返回的时候视图名称将由RequestToViewNameTranslator 来决定。
 
 * 一个View 对象
 
