@@ -45,7 +45,9 @@ public class TestController {
 
   可以用来接收上传的参数。
 
-* Spring 封装的MultipartFile 。 用来接收上传文件的。
+* Spring 封装的MultipartFile 。
+  
+  用来接收上传文件的。
 
 * Spring 封装的Errors 和BindingResult 对象。
 
