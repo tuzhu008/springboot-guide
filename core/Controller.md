@@ -41,15 +41,15 @@ public class TestController {
 
   这些都可以用来封装模型数据，用来给视图做展示。
 
-* **实体类。** 
+* **实体类。**
 
   可以用来接收上传的参数。
 
-* Spring 封装的MultipartFile 。
-  
+* **Spring 封装的MultipartFile 。**
+
   用来接收上传文件的。
 
-* Spring 封装的Errors 和BindingResult 对象。
+* **Spring 封装的Errors 和BindingResult 对象。**
 
   这两个对象参数必须紧接在需要验证的实体对象参数之后，它里面包含了实体对象的验证结果。
 
