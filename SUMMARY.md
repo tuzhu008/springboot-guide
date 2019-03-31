@@ -28,5 +28,5 @@
 * [Hibernate]()
 * Mybatis
   * [Mybatis](database/mybatis/Mybatis.md)
-  * [Mapper](database/mybatis/Mybatis.md)
-  * [Mybatis-PageHelper](database/mybatis/Mybatis.md)
+  * [Mapper](database/mybatis/Mapper.md)
+  * [Mybatis-PageHelper](database/mybatis/Mybatis-PageHelper.md)
